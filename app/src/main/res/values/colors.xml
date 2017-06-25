@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3997D3</color>
+    <color name="colorPrimaryDark">#3997D3</color>
+    <color name="colorAccent">#FFD700</color>
+
+
+    <color name="catSoiree">#1abc9c</color>
+    <color name="catJV">#9b59b6</color>
+    <color name="catJSociete">#f1c40f</color>
+    <color name="catDinatoire">#e67e22</color>
+    <color name="catEtude">#27ae60</color>
+    <color name="catSport">#bdc3c7</color>
+    <color name="catExpo">#e74c3c</color>
+    <color name="catConcert">#3498db</color>
+    <color name="catAutre">#95a5a6</color>
+</resources>

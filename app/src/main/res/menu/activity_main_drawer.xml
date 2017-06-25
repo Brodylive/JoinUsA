@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_flux"
+            android:icon="@drawable/ic_flux"
+            android:title="Flux" />
+        <item
+            android:id="@+id/nav_profil"
+            android:icon="@drawable/ic_your_profil"
+            android:title="Profil" />
+        <item
+            android:id="@+id/nav_event"
+            android:icon="@drawable/ic_calendar"
+            android:title="Participations" />
+        <item
+            android:id="@+id/nav_search"
+            android:icon="@drawable/ic_search2"
+            android:title="Recherche" />
+        <item
+            android:id="@+id/nav_create"
+            android:icon="@drawable/ic_create_event"
+            android:title="Créer un event" />
+    </group>
+
+
+</menu>

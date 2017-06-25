@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.jbd.ju2.EventsActivity"
+    tools:showIn="@layout/app_bar_events">
+
+    <TextView
+        android:id="@+id/e0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:text="@string/loups_garous"
+        android:background="@color/catJSociete"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1"
+        android:id="@+id/te0">
+
+        <TableRow
+            android:background="@color/catJSociete"
+            android:paddingBottom="5dp">
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginRight="10dp"
+                app:srcCompat="@drawable/ic_place" />
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:stretchColumns="2">
+                <TableRow>
+                    <TextView
+                        android:text="@string/_28_d_cembre_19_00"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:textColor="#222222"
+                        android:layout_weight="1"
+                        android:id="@+id/dte0" />
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        app:srcCompat="@drawable/ic_cat_jsociete"
+                        android:layout_marginRight="10dp"
+                        android:id="@+id/cate0" />
+
+                </TableRow>
+                <TableRow>
+
+                    <TextView
+                        android:id="@+id/addre0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:textSize="12dp"
+                        android:textColor="@android:color/black"
+                        android:text="@string/place_abb_joseph_11_namur"
+                        />
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginRight="10dp"
+                        app:srcCompat="@drawable/ic_event_ok" />
+
+                </TableRow>
+            </TableLayout>
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/e1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:text="@string/guerilla_poubelle_et_ghost_on_tape"
+        android:background="@color/catConcert"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1"
+        android:id="@+id/te1">
+
+        <TableRow
+            android:background="@color/catConcert"
+            android:paddingBottom="5dp">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginRight="10dp"
+                app:srcCompat="@drawable/ic_place" />
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:stretchColumns="2">
+                <TableRow>
+                    <TextView
+                        android:text="@string/_1_janvier_20_00"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:textColor="#222222"
+                        android:layout_weight="1"
+                        android:id="@+id/dte1" />
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        app:srcCompat="@drawable/ic_cat_concert"
+                        android:layout_marginRight="10dp"
+                        android:id="@+id/cate1" />
+
+                </TableRow>
+                <TableRow>
+
+                    <TextView
+                        android:id="@+id/addre1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:textSize="12dp"
+                        android:textColor="@android:color/black"
+                        android:text="@string/le_temple_rue_de_bruxelles_51_5000_namur"
+                        />
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginRight="10dp"
+                        app:srcCompat="@drawable/ic_event_ok" />
+
+                </TableRow>
+            </TableLayout>
+        </TableRow>
+    </TableLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">JU2</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="map">Map</string>
+    <string name="search">Search</string>
+    <string name="Events">Events</string>
+    <string name="guerilla_poubelle_et_ghost_on_tape">Guerilla Poubelle et Ghost on Tape</string>
+    <string name="_1_janvier_20_00">1 janvier - 20:00</string>
+    <string name="le_temple_rue_de_bruxelles_51_5000_namur">Le Temple - Rue de Bruxelles 51, Namur</string>
+    <string name="namur_capitale_de_la_bi_re_d_hiver">Namur Capitale de la Bière… d\'Hiver</string>
+    <string name="abbaye_de_floreffe_rue_s_minaire_7_5150_floreffe">Abbaye De Floreffe - Rue Séminaire 7, Floreffe</string>
+    <string name="_6_janvier_16_00">6 janvier - 16:00</string>
+    <string name="art_truc_troc_n_design_2017">ART TRUC TROC \'n\' Design 2017</string>
+    <string name="loups_garous">Loups-Garous</string>
+    <string name="place_abb_joseph_11_namur">Place Abbé Joseph 11, Namur</string>
+    <string name="_28_d_cembre_19_00">28 décembre - 19:00</string>
+    <string name="_3_f_vrier_18_00">3 février - 18:00</string>
+    <string name="_4_janvier_19_00">4 janvier - 19:00</string>
+    <string name="sam_esmail">Sam Esmail</string>
+    <string name="mrrobot">\@mrRobot</string>
+    <string name="_24_ans">24 ans</string>
+    <string name="interets">Interets</string>
+    <string name="evenements_cr_s">Evenements créés</string>
+    <string name="ouverture_de_l_alibi">Ouverture de l\'Alibi</string>
+    <string name="john_wells">John Wells</string>
+    <string name="shameless">\@Shameless</string>
+    <string name="_32_ans">32 ans</string>
+    <string name="soir_e_russe_l_alibi">Soirée russe à l\'Alibi</string>
+    <string name="elliot_alderson">Elliot Alderson</string>
+    <string name="_3dboardcafe">\@3DboardCafe</string>
+    <string name="kevin_whells">Kevin Whells</string>
+    <string name="cr_par_3dboardcafe">Créé par @3DboardCafe</string>
+    <string name="salut_elliot">Salut Elliot !</string>
+    <string name="cr_er">Créer</string>
+</resources>
